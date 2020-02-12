@@ -1,9 +1,6 @@
 # Drug Supplychain Based on Ethereum
 An Ethereum DApp that demonstrates a Supply Chain flow from a Designer of a drug along to the end user Buyer(consumer). Regulator whos responsable for approve the drug. Manufacturer can act as a owner of a drug design or bulid partner contract with a designer. A Distributor should act as middleman between manufacturer to retailer to last actor in the system consumer.
 
-[Live demo on rinkeby network.](https://drugn-drugz-ukdhcdvqtk.now.sh/)
-
-
 ## UML Architecture
 
 ### [Activity Diagram](architecture/ActivityDiagram.png)
@@ -91,13 +88,3 @@ cd frontend && npm start
 - Drug Design Data: currentOwner: 0x65F97478AEB4b634Cc2F8399a6c9d6Ec5eCDB866, designerId: 0x5F3383cA12B053fD3254b358794Fc761DD961721, designerName: Eli Lilly, drugName: Nabilone, currentState: Approved, forSale: true, salePrice: 2000000000000000000, partnershipState: Open, partnershipShares: 85, numberOfTests: 2, numberOfManufacturers: 1,
 - Drugs Load Data: quantity: 50, _udpc: 1, state: Received, currentOwner: 0x0D3271dc3cb54E9e20092Db0b60B07cEB1de62a4, manufacturerId: 0x5F3383cA12B053fD3254b358794Fc761DD961721, deistributorId: 0x0D3271dc3cb54E9e20092Db0b60B07cEB1de62a4, retailerId: 0x65F97478AEB4b634Cc2F8399a6c9d6Ec5eCDB866, price: 100000000000000000,
 - Drug Item Data: _udpc: 1, _slu: 1, state: Purchased, currentOwner: 0x0D3271dc3cb54E9e20092Db0b60B07cEB1de62a4, manufacturerId: 0x5F3383cA12B053fD3254b358794Fc761DD961721, deistributorId: 0x0D3271dc3cb54E9e20092Db0b60B07cEB1de62a4, retailerId: 0x65F97478AEB4b634Cc2F8399a6c9d6Ec5eCDB866, price: 100000000000000000, packingTimeStamp: 1552331048, numberOfupdate: 3, timeStamps: 1552331363,1552331408,1552331498, temprtures: 33,22,33, humiditys: 22,11,19, updaterAddresses: 0x0D3271dc3cb54E9e20092Db0b60B07cEB1de62a4,0x5F3383cA12B053fD3254b358794Fc761DD961721,0x65F97478AEB4b634Cc2F8399a6c9d6Ec5eCDB866,
-
-
----
-## Built With ❤️ Using:
-* [**Udacity**](https://www.udacity.com/) 
-* [**Ethereum**](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts.
-* [**Truffle**](https://truffleframework.com/) - development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM).
-* [**OpenZeppelin**](https://openzeppelin.org/) -  A library for secure smart contract development. It provides implementations of standards like ERC20 and Ownable.
-* [**React**](https://openzeppelin.org/) -  A library for secure smart contract development. It provides implementations of standards like ERC20 and Ownable.
-* [**OpenZeppelin**](https://openzeppelin.org/) -  A library for secure smart contract development. It provides implementations of standards like ERC20 and Ownable.
